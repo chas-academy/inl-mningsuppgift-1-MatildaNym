@@ -46,4 +46,4 @@ function showContacts(contactBook, groupToShow) { // Rör ej denna kod
 
 // Rör ej denna kod
 showContacts(contactBook, groupToShow);
-export default showContacts;
+module.exports = { showContacts };
